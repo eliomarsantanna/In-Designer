@@ -12,7 +12,7 @@ import {
   Toolbar,
   Typography,
   withStyles
-} from '@material-ui/core';
+} from '@in- designer/core';
 import { mainListItems, secondaryListItems } from './ListItems.jsx';
 import SimpleTable from './SimpleTable.jsx';
 
@@ -129,7 +129,7 @@ class Dashboard extends React.Component {
                   this.state.open && classes.menuButtonHidden,
                 )}
                 >
-                <i className="material-icons">menu</i>
+                <i className="in-icons">menu</i>
               </IconButton>
               <Typography
                 component="h1"
@@ -142,7 +142,7 @@ class Dashboard extends React.Component {
               </Typography>
               <IconButton color="inherit">
                 <Badge badgeContent={4} color="secondary">
-                  <i className="material-icons">notifications</i>
+                  <i className="in-icons">notifications</i>
                 </Badge>
               </IconButton>
             </Toolbar>
@@ -156,7 +156,7 @@ class Dashboard extends React.Component {
             >
             <div className={classes.toolbarIcon}>
               <IconButton onClick={this.handleDrawerClose}>
-                <i className="material-icons">chevron_left</i>
+                <i className="in-icons">chevron_left</i>
               </IconButton>
             </div>
             <Divider />
