@@ -1,2 +1,0 @@
-# In-Designer
-"Ferramenta"
