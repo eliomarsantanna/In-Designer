@@ -3,6 +3,6 @@
 # Categoria 
 ▪Design 
 # Tecnologia 
-▪JavaScript ▪HTML
+▪JavaScript 
 # Autoria 
 ▪Eliomar Sant'Anna 
